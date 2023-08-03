@@ -19,7 +19,7 @@ const Footer = () => {
         <a href="https://api.whatsapp.com/send?phone=5531971102606&text=Oi%2C+tudo+bem%3F+Estou+com+um+processo%21+Como+pode+me+ajudar%3F&_fb_noscript=1" target="_blank" rel="noopener noreferrer">
           <IoLogoWhatsapp size={30} color="white" style={iconStyle} />
         </a>
-        <a href="mailto:seculus.law@gmail.com">
+        <a href="https://mail.google.com/mail/?view=cm&to=seculus.law@gmail.com" target="_blank" rel="noopener noreferrer">
           <IoMdMail size={30} color="white" style={iconStyle} />
         </a>
       </div>
