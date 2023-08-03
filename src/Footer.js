@@ -16,8 +16,7 @@ const Footer = () => {
         <a href="https://www.linkedin.com/company/seculus-lawtech/" target="_blank" rel="noopener noreferrer">
           <FaLinkedin size={30} color="white" style={iconStyle} />
         </a>
-        <a href="https://api.whatsapp.com/send?phone=5531971102606&text=Oi%2C+tudo+bem%3F+Es\
-        tou+com+um+processo%21+Como+pode+me+ajudar%3F&_fb_noscript=1" target="_blank" rel="noopener noreferrer">
+        <a href="https://api.whatsapp.com/send?phone=5531971102606&text=Oi%2C+tudo+bem%3F+Estou+com+um+processo%21+Como+pode+me+ajudar%3F&_fb_noscript=1" target="_blank" rel="noopener noreferrer">
           <IoLogoWhatsapp size={30} color="white" style={iconStyle} />
         </a>
         <a href="seculus.law@gmail.com">
