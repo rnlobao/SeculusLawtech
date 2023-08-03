@@ -1,5 +1,4 @@
 import React from 'react';
-import { BrowserRouter, Route, Link } from 'react-router-dom';
 import { isMobile } from 'react-device-detect';
 import Emissao from './Emissao';
 import Footer from './Footer';
