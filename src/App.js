@@ -8,8 +8,6 @@ import './App.css';
 function App() {
 
   const handleButtonClick = () => {
-    // Substitua 'seu_link_do_app' pelo link real do aplicativo que você deseja abrir.
-    // Exemplo: 'https://api.whatsapp.com/' para o WhatsApp.
     const appLink = 'https://api.whatsapp.com/send?phone=5531971102606&text=Oi%2C+tudo+bem%3F+Estou+com+um+processo%21+Como+pode+me+ajudar%3F&_fb_noscript=1';
     window.location.href = appLink;
   };
