@@ -1,21 +1,31 @@
 import React from 'react';
 import { BrowserRouter, Route, Link } from 'react-router-dom';
+import { isMobile } from 'react-device-detect';
 import Emissao from './Emissao';
+import Footer from './Footer';
+
 import './App.css';
 
 function App() {
+
+  const handleButtonClick = () => {
+    // Substitua 'seu_link_do_app' pelo link real do aplicativo que você deseja abrir.
+    // Exemplo: 'https://api.whatsapp.com/' para o WhatsApp.
+    const appLink = 'https://api.whatsapp.com/send?phone=5531971102606&text=Oi%2C+tudo+b\
+    em%3F+Estou+com+um+processo%21+Como+pode+me+ajudar%3F&_fb_noscript=1';
+    window.location.href = appLink;
+  };
 
   return (
     // <BrowserRouter>
       <div className="App">
         <header>
           <div className="logo">
-            <img src="seculussemfundo.png" alt="Logo" />
+            <img src="seculus-logo-cortado.png" alt="Logo" />
           </div>
           <nav>
             <ul>
               <li><a href="#">Home</a></li>
-              <li><a href="#">Emitir</a></li>
             </ul>
           </nav>
         </header>
@@ -24,7 +34,7 @@ function App() {
           <div class="content">
               <h1>Seculus Lawtech</h1>
               <h2>Quer processar alguém? Use a Seculus.</h2>
-              <button type="button" class="landingpage-button">Veja nossos planos</button>
+              <button type="button" class="landingpage-button" onClick={handleButtonClick}>Fale com a gente!</button>
           </div>
           <div class="image">
               <img src="landingBoy.svg" alt="Imagem" />
@@ -51,6 +61,7 @@ function App() {
               </div>
           </div>
         </div>
+        <Footer />
       </div>
     // </BrowserRouter>
   );

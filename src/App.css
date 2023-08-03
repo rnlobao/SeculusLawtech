@@ -1,3 +1,4 @@
+/* Estilos para telas maiores (desktop) */
 .App {
   text-align: center;
 }
@@ -22,7 +23,6 @@ nav {
   font-family: "Poppins", sans-serif;
 }
 
-
 nav ul {
   list-style: none;
   margin: 0;
@@ -43,7 +43,6 @@ nav li a {
   color: white;
   font-weight: bold;
 }
-
 
 body, html {
   margin: 0;
@@ -71,7 +70,6 @@ h1 {
   margin-bottom: 5px;
   color: white;
   font-family: "Poppins Bold", sans-serif;
-
 }
 
 h2 {
@@ -109,8 +107,7 @@ h2 {
   font: "Poppins Bold";
   bottom: 0;
   width: 50%;
-  border: 2px solid white; /* Adicione uma borda de 2px sólida branca */
-
+  border: 2px solid white;
 }
 
 .section {
@@ -146,19 +143,111 @@ h2 {
 .box h3 {
   font-size: 18px;
   margin-bottom: 6px;
-  /*color: rgb(77, 228, 26);*/ 
   color: white;
   font-family: "Poppins SemiBold", sans-serif;
 }
 
 .box p {
   font-size: 14px;
-  /* color: RGB(147, 298, 96); */
   color: white;
   font-family: "Poppins Regular", sans-serif;
-
 }
 
 .boxes .box + .box {
   margin-left: 40px;
 }
+
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  header {
+    padding: 5px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+
+  .content {
+    display: flex;
+    flex-direction: column; /* Itens dispostos em coluna */
+    align-items: center; /* Alinhar os itens no centro */
+  }
+
+  .image {
+    margin-top: 20px; /* Espaçamento entre o botão e a imagem em dispositivos desktop */
+    display: none;
+  }
+
+  nav li {
+    margin-left: 30px;
+  }
+
+  nav li:last-child {
+    margin-right: 40px;
+  }
+
+  h1 {
+    margin-top: -300px;
+    font-size: 40px;
+    width: 80%;
+  }
+
+  h2 {
+    font-size: 20px;
+    margin-bottom: 30px;
+    width: 80%;
+  }
+
+  .image img {
+    width: 250px;
+  }
+
+  .landingpage-button {
+    font-size: 20px;
+    width: 80%;
+  }
+
+  .section {
+    margin-top: -300px;
+  }
+
+  .section h2 {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+  .box h3 {
+    font-size: 16px;
+  }
+
+  .box p {
+    font-size: 12px;
+  }
+
+  .boxes {
+    flex-direction: column; /* Itens dispostos em coluna */
+    display: flex;
+    align-items: center; /* Centralizar horizontalmente */
+    justify-content: center; 
+  }
+
+  .box {
+    width: 80%;
+    margin: 0 auto 20px; /* Margem vertical de 20px e centralizar horizontalmente */
+    align-items: center;
+  }
+
+  .box img {
+    width: 80%;
+  }
+
+  .boxes .box + .box {
+    margin-left: 0; /* Define a margem esquerda como zero */
+  }
+}
+
