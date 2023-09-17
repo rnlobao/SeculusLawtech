@@ -7,7 +7,7 @@ const Footer = () => {
     <footer style={footerStyle}>
       <div style={leftContentStyle}>
         <img
-          src="seculus-logo-cortado.png" // Substitua pelo caminho da sua logo
+          src="Images/seculus-logo-cortado.png" // Substitua pelo caminho da sua logo
           alt="Logo da sua empresa"
           style={logoStyle}
         />
@@ -27,7 +27,6 @@ const Footer = () => {
   );
 };
 
-// Estilos para o footer e os conteúdos esquerdo e direito
 const footerStyle = {
   backgroundColor: 'rgb(89, 97, 92)',
   padding: '10px',
@@ -37,14 +36,14 @@ const footerStyle = {
 
 const leftContentStyle = {
   display: 'flex',
-  flexDirection: 'column', // Renderiza os elementos em coluna
-  alignItems: 'flex-start', // Alinha os elementos à esquerda
+  flexDirection: 'column',
+  alignItems: 'flex-start',
 };
 
 const logoStyle = {
-  width: '40px', // Defina o tamanho adequado para a sua logo
-  marginRight: '10px', // Espaçamento entre a logo e o texto
-  marginLeft: '100px', // Distância da logo em relação à borda esquerda
+  width: '40px',
+  marginRight: '10px',
+  marginLeft: '100px',
   marginTop: '10px',
   marginBottom: '10px',
 };
@@ -58,7 +57,7 @@ const rightContentStyle = {
 };
 
 const iconStyle = {
-  marginRight: '20px', // Espaçamento entre os ícones
+  marginRight: '20px',
 };
 
 export default Footer;
