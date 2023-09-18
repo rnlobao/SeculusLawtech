@@ -1,5 +1,6 @@
 import React from 'react';
 import './LandingPage.css';
+import OurServices from '../OurServices/OurServices';
 
 function LandingPage() {
 
@@ -9,15 +10,18 @@ function LandingPage() {
     };
 
   return (
-    <div class="landing-page">
-        <div class="content">
-            <h1>Seculus Lawtech</h1>
-            <h2>Quer processar alguém? Use a Seculus.</h2>
-            <button type="button" class="landingpage-button" onClick={handleButtonClick}>Fale com a gente!</button>
+    <div className='landingpage-fullcontent'>
+        <div class="landingpage">
+            <div class="landingpage-words">
+                <h1>Seculus Lawtech</h1>
+                <h2>Quer processar alguém? Use a Seculus.</h2>
+                <button type="button" class="landingpage-button" onClick={handleButtonClick}>Fale com a gente!</button>
+            </div>
+            <div class="landingpage-image">
+                <img src="./Images/landingBoy.svg" alt="Imagem" />
+            </div>
         </div>
-        <div class="image">
-            <img src="./Images/landingBoy.svg" alt="Imagem" />
-        </div>
+        <OurServices />
     </div>
   );
 }
