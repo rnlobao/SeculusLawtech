@@ -8,7 +8,8 @@ function Header() {
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
-                <li><a href='/login'>Login</a></li>
+                <li><a href='/login'>Entrar</a></li>
+                <li><a href='/cadastro'>Criar uma conta</a></li>
             </ul>
         </nav>
     </header>

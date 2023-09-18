@@ -1,41 +1,92 @@
-/* Login.css */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
   
-  .login-container {
-    width: 300px; /* Largura do contêiner de login */
-    background-color: #ffffff;
-    border-radius: 5px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+.login-container {
+    width: 100%;
+    background-color: black;
     text-align: center;
     display: flex;
     min-height: 100vh;
     align-items: center;
+}
 
-  }
-  
-  .login-form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  input {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  button {
-    padding: 10px;
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
+.login-girlSearching {
+  opacity: 30%;
+  margin-left: 68px;
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.login-containerWithFields {
+  border-radius: 40px;
+  background: #FFF;
+  width: 649px;
+  height: 420px;
+}
+
+.login-containerWithFields h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.login-split-title {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 32px;
+}
+
+.login-metade-esquerda {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 4px;
+}
+
+.login-metade-direita {
+  color: #1EE422;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.login-email-textField {
+  width: 572px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #9F9F9F;
+  font-size: 16px;
+  margin-top: 70px;
+  height: 30px;
+}
+
+.login-password-textField {
+  width: 572px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #9F9F9F;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 30px;
+}
+
+.login-email-textField::placeholder, .login-password-textField::placeholder {
+  color: #9F9F9F;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+
   
