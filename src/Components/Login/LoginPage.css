@@ -88,5 +88,19 @@
   font-size: 14px;
 }
 
+.login-forgotMyPassword {
+  color: #1EE422;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  margin-bottom: 2px;
+  margin-left: 50px;
+  display: flex;
+
+}
+
 
   

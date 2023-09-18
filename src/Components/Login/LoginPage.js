@@ -14,6 +14,7 @@ function LoginPage() {
         </h2>
         <input type="text" class="login-email-textField" placeholder="Email:"></input>
         <input type="text" class="login-password-textField" placeholder="Senha:"></input>
+        <button className='login-forgotMyPassword'>Esqueci minha senha</button>
       </div>
     </div>
   );
