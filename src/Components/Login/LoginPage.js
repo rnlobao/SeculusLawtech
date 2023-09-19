@@ -13,8 +13,12 @@ function LoginPage() {
           <span class="login-metade-direita">Criar uma conta</span>
         </h2>
         <input type="text" class="login-email-textField" placeholder="Email:"></input>
-        <input type="text" class="login-password-textField" placeholder="Senha:"></input>
-        <button className='login-forgotMyPassword'>Esqueci minha senha</button>
+        <input type="password" class="login-password-textField" placeholder="Senha:"></input>
+        <div className='login-containerWithButtons'>
+          <button className='login-forgotMyPassword'>Esqueci minha senha</button>
+          <button className='login-enter'>ENTRAR</button>
+        </div>
+        
       </div>
     </div>
   );

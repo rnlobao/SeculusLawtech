@@ -20,7 +20,7 @@
   border-radius: 40px;
   background: #FFF;
   width: 649px;
-  height: 420px;
+  height: 450px;
 }
 
 .login-containerWithFields h1 {
@@ -88,6 +88,11 @@
   font-size: 14px;
 }
 
+.login-containerWithButtons {
+  display: flex;
+  justify-content: space-between;
+}
+
 .login-forgotMyPassword {
   color: #1EE422;
   font-family: Poppins;
@@ -96,10 +101,23 @@
   cursor: pointer;
   background-color: transparent;
   border: none;
-  margin-bottom: 2px;
   margin-left: 50px;
   display: flex;
+  margin-top: 40px;
+}
 
+.login-enter {
+  background-color: #1EE422;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  width: 180px;
+  height: 50px;
+  margin-right: 38px;
+  margin-top: 40px;
+  cursor: pointer;
 }
 
 
