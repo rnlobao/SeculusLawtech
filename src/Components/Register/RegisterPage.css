@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+  
+.register-container {
+    width: 100%;
+    background-color: black;
+    text-align: center;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register-girlSearching {
+  opacity: 30%;
+  margin-left: 68px;
+  margin-top: 68px;
+  margin-bottom: 68px;
+}
+
+.register-containerWithFields {
+  border-radius: 40px;
+  background: #FFF;
+  width: 649px;
+  height: calc(100vh - 40px);
+  margin-right: 120px;
+}
+
+.register-containerWithFields h1 {
+  color: #000;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: bold;
+  margin-left: 32px;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.register-split-title {
+  display: flex;
+  align-items: center;
+  margin-top: -20px;
+  margin-left: 32px;
+}
+
+.register-metade-esquerda {
+  color: #000;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 4px;
+}
+
+.register-metade-direita {
+  color: #1EE422;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.register-nome-textField {
+  width: 572px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #9F9F9F;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.register-password-textField, .register-email-textField, .register-cnpj-textField, .register-telefone-textField{
+  width: 572px;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #9F9F9F;
+  font-size: 16px;
+  margin-top: 20px;
+  height: 25px;
+}
+
+.register-email-textField::placeholder, .register-password-textField::placeholder, .register-cnpj-textField::placeholder,
+.register-telefone-textField::placeholder, .register-nome-textField::placeholder {
+  color: #9F9F9F;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.register-enter {
+  background-color: #1EE422;
+  font-family: "Poppins";
+  font-weight: bold;
+  border-radius: 40px;
+  font-size: 18px;
+  border: none;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+  width: calc(100% - 40px);
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.register-camposDeEndereco1, .register-camposDeEndereco2, .register-camposDeEndereco3 {
+    justify-content: space-between;
+    display: flex;
+    gap: 12px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+
+  

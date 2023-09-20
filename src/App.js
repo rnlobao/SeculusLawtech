@@ -6,21 +6,24 @@ import Footer from './Components/Footer/Footer';
 import Header from './Components/Header/Header';
 import LandingPage from './Components/LandingPage/LandingPage';
 import LoginPage from './Components/Login/LoginPage';
+import RegisterPage from './Components/Register/RegisterPage';
+
 
 function App() {
 
   const location = useLocation();
   const isLoginPage = location.pathname === '/login';
+  const isRegisterPage = location.pathname === '/register';
 
   return (      
       <div className="App">
-        {!isLoginPage && <Header />}
+        {(!isLoginPage && !isRegisterPage) && <Header />}
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/login" element={<LoginPage />} />
-          {/* <Route path="/cadastro" element={<RegisterPage />} /> */}
+          <Route path="/register" element={<RegisterPage />} />
         </Routes>
-        {!isLoginPage && <Footer />}
+        {(!isLoginPage && !isRegisterPage) && <Footer />}
       </div>
   );
 }

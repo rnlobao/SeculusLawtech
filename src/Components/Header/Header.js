@@ -9,7 +9,7 @@ function Header() {
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href='/login'>Entrar</a></li>
-                <li><a href='/cadastro'>Criar uma conta</a></li>
+                <li><a href='/register'>Criar uma conta</a></li>
             </ul>
         </nav>
     </header>
