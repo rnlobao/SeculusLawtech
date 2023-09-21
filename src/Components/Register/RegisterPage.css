@@ -69,7 +69,16 @@
   border: 1px solid #9F9F9F;
   font-size: 16px;
   margin-top: 20px;
-  height: 25px;
+  height: 20px;
+}
+
+.register-containerWithFields .register-email-erro {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  color: red;
 }
 
 .register-password-textField, .register-email-textField, .register-cnpj-textField, .register-telefone-textField{
@@ -78,8 +87,8 @@
   border-radius: 30px;
   border: 1px solid #9F9F9F;
   font-size: 16px;
-  margin-top: 20px;
-  height: 25px;
+  margin-top: 6px;
+  height: 20px;
 }
 
 .register-email-textField::placeholder, .register-password-textField::placeholder, .register-cnpj-textField::placeholder,
