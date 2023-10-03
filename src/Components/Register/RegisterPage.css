@@ -6,6 +6,7 @@
     text-align: center;
     display: flex;
     min-height: 100vh;
+    max-height: 100vh;
     align-items: center;
     justify-content: space-between;
 }
@@ -21,8 +22,9 @@
   border-radius: 40px;
   background: #FFF;
   width: 649px;
-  height: calc(100vh - 40px);
+  min-height: calc(100vh - 40px);
   margin-right: 120px;
+  margin-bottom: 5px;
 }
 
 .register-containerWithFields h1 {
@@ -72,11 +74,13 @@
   height: 20px;
 }
 
-.register-containerWithFields .register-email-erro {
+.register-containerWithFields .register-email-erro, .register-containerWithFields .register-password-erro, 
+.register-containerWithFields .register-cnpj-erro, .register-containerWithFields .register-cep-erro,
+ .register-containerWithFields .register-telefone-erro {
   font-family: "Poppins";
   font-weight: 400;
   font-size: 14px;
-  margin-top: 5px;
+  margin-top: 4px;
   margin-bottom: 0px;
   color: red;
 }
@@ -100,7 +104,7 @@
   font-size: 14px;
 }
 
-.register-enter {
+.button-register-enter {
   background-color: #1EE422;
   font-family: "Poppins";
   font-weight: bold;
@@ -113,6 +117,7 @@
   width: calc(100% - 40px);
   margin-top: 40px;
   cursor: pointer;
+  margin-bottom: 10px;
 }
 
 .register-camposDeEndereco1, .register-camposDeEndereco2, .register-camposDeEndereco3 {
