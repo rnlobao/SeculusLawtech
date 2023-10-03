@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import validator from 'validator';
+import axios from 'axios';
+
 import './RegisterPage.css';
 import InputMask from 'react-input-mask';
 
